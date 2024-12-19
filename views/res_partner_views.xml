@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_res_partner_form_inherit_kundennummer" model="ir.ui.view">
+        <field name="name">res.partner.form.kundennummer</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form" />
+        <field name="arch" type="xml">
+            <!-- Platzieren Sie das neue Feld vor der ersten Gruppe -->
+            <xpath expr="//group[1]" position="before">
+                <group>
+                    <div>
+                        <label for="kundennummer"/>
+                        <b><field name="kundennummer" readonly="1"/></b>
+                    </div>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>

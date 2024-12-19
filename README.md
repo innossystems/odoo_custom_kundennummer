@@ -1,6 +1,8 @@
-# Odoo 18 - Custom Kundennummer Modul
+# Odoo 18 Customer Number Management Module
 
 Dieses Modul fügt Odoo 18 die Funktionalität hinzu, beim Anlegen oder Speichern eines Unternehmens (Kunde oder Lieferant) automatisch eine Kundennummer sowie eine Lieferantennummer zu generieren. 
+
+GitHub-Link zum Projekt: [hmnstf/odoo_module_kundennummer](https://github.com/hmnstf/odoo_module_kundennummer)
 
 ## Voraussetzungen
 
@@ -22,4 +24,4 @@ Dieses Modul fügt Odoo 18 die Funktionalität hinzu, beim Anlegen oder Speicher
 
 1. Klonen Sie dieses Repository in Ihr Odoo-Addons-Verzeichnis:
    ```bash
-   git clone https://github.com/innossystems/odoo_custom_kundennummer.git custom_kundennummer
+   git clone https://github.com/hmnstf/odoo_module_kundennummer.git
